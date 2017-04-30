@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTraDH", "KTraDH.csproj", "{595F6BAD-0A5F-46B2-8A39-CD54605038C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDT", "D:\Lap trinh\VanTho\Working\CDT\CDT.csproj", "{A48C0424-B640-40F9-9F72-9D96667B6160}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = D:\\Lap\u0020trinh\\VanTho\\Working\\CDT\\CDT.csproj
+		SccProjectName0 = \u0022$/Source/CDT\u0022,\u0020WGAAAAAA
+		SccLocalPath0 = D:\\Lap\u0020trinh\\VanTho\\Working\\CDT
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{595F6BAD-0A5F-46B2-8A39-CD54605038C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{595F6BAD-0A5F-46B2-8A39-CD54605038C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{595F6BAD-0A5F-46B2-8A39-CD54605038C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{595F6BAD-0A5F-46B2-8A39-CD54605038C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

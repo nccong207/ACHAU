@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaoMaNL", "TaoMaNL.csproj", "{010DF6A8-E127-4543-BC1C-2DAD22393BC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDT", "..\..\..\..\Lap trinh 3\CDT_AChau\CDT.csproj", "{A48C0424-B640-40F9-9F72-9D96667B6160}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010DF6A8-E127-4543-BC1C-2DAD22393BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010DF6A8-E127-4543-BC1C-2DAD22393BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010DF6A8-E127-4543-BC1C-2DAD22393BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010DF6A8-E127-4543-BC1C-2DAD22393BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48C0424-B640-40F9-9F72-9D96667B6160}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
