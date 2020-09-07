@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{223D44E8-9282-472E-849F-0AD51E845487}</ProjectGuid>
+    <ProjectGuid>{E13582AB-EFFF-4A84-B29B-40A032706EBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>KTXPhoi</RootNamespace>
-    <AssemblyName>MTXPhoi_MdDt_ICD_KTXPhoi</AssemblyName>
+    <RootNamespace>KTNPhoi</RootNamespace>
+    <AssemblyName>MTNPhoi_MdDt_ICD_KTNPhoi</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -57,7 +57,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="KTXPhoi.cs" />
+    <Compile Include="KTNPhoi.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

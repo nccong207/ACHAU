@@ -21,7 +21,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\CDT\bin\Debug\Plugins\HTC\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -72,6 +72,11 @@
       <HintPath>C:\Program Files\Developer Express .NET v7.2\Sources\DevExpress.DLL\DevExpress.XtraLayout.v7.2.dll</HintPath>
     </Reference>
     <Reference Include="DevExpress.XtraLayout.v7.2.Design, Version=7.2.5.0, Culture=neutral, PublicKeyToken=9b171c9fd64da1d1, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\ABV\Plugins\LayHoaHong\LayHoaHong\bin\Debug\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
     <Reference Include="Plugins, Version=1.0.5050.25288, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Lap trinh 3\CDT_AChau\bin\Debug\Plugins.dll</HintPath>
@@ -93,6 +98,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportExcel.cs" />
     <Compile Include="XuLyBG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
