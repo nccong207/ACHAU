@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTraNhapTP", "KTraNhapTP\KT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayLSX", "LayLSX\LayLSX.csproj", "{55046E9A-9A2D-44B8-AA39-2B3C19655425}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayDH2", "LayDH2\LayDH2.csproj", "{9384D2FB-25FE-48B4-8523-6A54B638B794}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{55046E9A-9A2D-44B8-AA39-2B3C19655425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55046E9A-9A2D-44B8-AA39-2B3C19655425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55046E9A-9A2D-44B8-AA39-2B3C19655425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
