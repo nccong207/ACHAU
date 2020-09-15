@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayLSX", "LayLSX\LayLSX.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayDH2", "LayDH2\LayDH2.csproj", "{9384D2FB-25FE-48B4-8523-6A54B638B794}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToMau", "ToMau\ToMau.csproj", "{AF71A80F-AD91-4B39-9EC4-41605F3D8B5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9384D2FB-25FE-48B4-8523-6A54B638B794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF71A80F-AD91-4B39-9EC4-41605F3D8B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF71A80F-AD91-4B39-9EC4-41605F3D8B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF71A80F-AD91-4B39-9EC4-41605F3D8B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF71A80F-AD91-4B39-9EC4-41605F3D8B5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
