@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.50727</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{8E389FDC-DA7B-4046-8B9E-7E0912794CE4}</ProjectGuid>
+    <ProjectGuid>{5219ADD2-FF15-4F73-A3D7-718123858668}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LayPN</RootNamespace>
-    <AssemblyName>All_MdDt_ICC_LayPN</AssemblyName>
+    <RootNamespace>LayPX</RootNamespace>
+    <AssemblyName>MT42_MdDt_ICC_LayPX</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
@@ -70,7 +70,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LayPN.cs" />
+    <Compile Include="LayPX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
