@@ -70,6 +70,8 @@ namespace NhapNLTuExcel
                     return;
                 }
 
+                var tbKH = db.GetDataTable("select MaKH, TenTat from DMKH");
+
                 foreach (DataRow row in dtSource.Rows)
                 {
                     var maNL = XuLyMaNL(row);
@@ -81,9 +83,9 @@ namespace NhapNLTuExcel
                     gvMain.SetFocusedRowCellValue(gvMain.Columns["SoLuong"], row[6]);
                     gvMain.SetFocusedRowCellValue(gvMain.Columns["GhiChu"], row[8]);
 
-                    var tbKH = db.GetDataTable("select MaKH from DMKH where TenTat = N'" + row[7] + "'");
-                    if (tbKH.Rows.Count > 0)
-                        gvMain.SetFocusedRowCellValue(gvMain.Columns["MaKH"], tbKH.Rows[0][0]);
+                    var rowsKH = tbKH.Select("TenTat = '" + row[7] + "'");
+                    if (rowsKH.Length > 0)
+                        gvMain.SetFocusedRowCellValue(gvMain.Columns["MaKH"], rowsKH[0][0]);
 
                     gvMain.UpdateCurrentRow();
                 }
@@ -100,7 +102,8 @@ namespace NhapNLTuExcel
             var maNL = loai + "." + kho + "." + dl;
             var sql = @"if not exists (select * from DMNL where Ma = '{0}')
                         insert into DMNL(Ma, Ten, MaNHOM, Kho, DL)
-                        values('{0}', '{1}', '{1}', {2}, {3})";
+                        select top 1 '{0}', TenNhom, '{1}', {2}, {3}
+                        from DMNhomGiay where MaNhom = '{1}'";
             db.UpdateByNonQuery(string.Format(sql, maNL, loai, kho, dl));
             return maNL;
         }
